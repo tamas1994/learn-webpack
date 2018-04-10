@@ -4,12 +4,17 @@
   "description": "a webpack learning project",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "server": "webpack-dev-server --open "
   },
   "author": "Tamas",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "3.10.0",
     "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
   }
 }
